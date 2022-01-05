@@ -3,17 +3,19 @@ import '../App.css';
 
 
 class Square extends Component{
-
-  constructor(props){
+    constructor(props){
     super(props)
-    
   }
 
+  handleClick = () => {
+    this.props.handleGamePlay(this.props.index)
+  }
 
   render(){
     return(
       <>
-          <div className="square">
+          <div className="square"
+          onClick={this.handleClick}>
             {this.props.value}
           </div>
       </>

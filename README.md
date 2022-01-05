@@ -12,13 +12,26 @@
 //Mapped over the Square component
 //Passed the value from th earay in state (aka the question mark)
 //Added a gameboard div around the mapped logic
-//Styled 
+=========================
 
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
+//Branch: index-position-g
+//Passed index from the map to square
+//Set up a handleClick and onClick for square
+//Set up a handleGamePlay method in App.js that receies the index from square ..
+===========================
 
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
+//Branch: tree-emoji-g
+//Destructured board of state
+//Assign the given index a new value
+//Emoji control+command+spacebar
+===========================
+
 
 - As a user, if I select the winning square the question mark will become a treasure emoji.
+//Branch winning-g
+//
 
 - As a user, if I select the losing square the question mark will become a bomb emoji.
 
